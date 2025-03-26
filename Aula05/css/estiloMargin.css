@@ -1,0 +1,12 @@
+body {
+    border: 2px solid red;
+    margin: 8px; 
+}
+div {
+    border: 2px solid black;
+    margin: 2px;
+}
+img{
+    border: 10px solid blue;
+    margin: 10px;
+}
