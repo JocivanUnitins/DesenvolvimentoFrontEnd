@@ -1,0 +1,13 @@
+.menuDivTop{
+    height: 82px;
+    background-color: aqua;
+}
+.menuDivSecundario{                
+    background-color: rgb(53, 203, 71);
+    height: 200px;
+    width: 100px;
+    float: right;
+}
+.flutuarEsquerda{
+    float: left;
+}
