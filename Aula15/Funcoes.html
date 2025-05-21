@@ -4,11 +4,17 @@
         <input id="valor1"> <br><br>
         <label>Valor 2</label>
         <input id="valor2"> <br><br>
-        <button onclick="soma();" >SOMA</button>
+        <label>RESULTADO:</label>
+        <span id="resultado"> 0 </span>
+
+      <br><br>
+
+        <button onclick="soma();" >SOMA</button>       
 
         <script>
             function soma(){
                let n1 = parseInt(document.getElementById("valor1").value );             
+               document.getElementById("resultado").innerText = 100;
 
             }
 
